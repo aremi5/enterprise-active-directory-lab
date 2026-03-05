@@ -264,6 +264,9 @@ Firewall Configuration – Blocking ICMP Traffic
 
 To demonstrate host-based security controls, I configured a firewall rule to block ICMP echo requests (ping). This simulates a security scenario where network probing and basic reconnaissance activity is restricted within the environment.
 
+Screenshot:
+
+![Firewall ICMP Block](Screenshots/18-Firewall-Block-ICMP-Rule.png)
 Event Viewer – Login Failure Investigation
 
 I used Event Viewer to monitor authentication activity within the domain environment. I reviewed failed login attempts to simulate troubleshooting and security monitoring.
@@ -274,6 +277,9 @@ This investigation helped identify:
 • authentication failures
 • suspicious login behavior
 
+Screenshot:
+
+![Event Viewer Login Failure](Screenshots/19-EventViewer-Login-Failure.png)
 Event Viewer – Additional Log Investigation
 
 I performed additional analysis using Event Viewer to review authentication events and system activity on the domain controller.
@@ -284,6 +290,9 @@ This allowed me to observe:
 • repeated login failures
 • authentication-related system events
 
+Screenshot:
+
+![Event Viewer Additional Failure](Screenshots/20-EventViewer-Additional-Failure.png)
 DHCP Verification – Network Configuration
 
 To verify that the client machine received its network configuration automatically, I ran the ipconfig /all command on the client system.
@@ -295,6 +304,9 @@ This allowed me to confirm:
 • the configured DNS server
 • overall client network configuration
 
+Screenshot:
+
+![DHCP Configuration](Screenshots/21-DHCP-ipconfig-all.png)
 DNS Verification – Name Resolution
 
 To confirm that DNS resolution was working properly within the domain environment, I used the nslookup command to query the DNS server.
@@ -307,7 +319,11 @@ DNS verification is commonly used when troubleshooting:
 • connectivity issues
 • incorrect DNS configurations
 
----
+Screenshot:
+
+![DNS Lookup](Screenshots/22-DNS-nslookup-remitech.png)
+
+
 
 # ServiceNow Integration (IT Service Management) - In progress
 
