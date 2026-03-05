@@ -22,7 +22,7 @@ To simulate IT service operations, I also integrated **ServiceNow** workflows fo
 
 Environment Components
 
-This lab environment simulates a small enterprise Active Directory network running in Microsoft Azure. The goal of the project is to demonstrate common IT Support, System Administration, and Security troubleshooting tasks performed in a real corporate environment.
+This lab environment simulates a small enterprise Active Directory network running in Microsoft Azure. The goal of the project is to demonstrate common IT Support, System Administration, and Security troubleshooting tasks performed in a real opperation environment.
 
 Infrastructure
 
@@ -260,9 +260,56 @@ Screenshot:
 
 ![Wireshark DNS](Screenshots/14-Wireshark-DNS.png)
 
+Firewall Configuration – Blocking ICMP Traffic
+
+To demonstrate host-based security controls, I configured a firewall rule to block ICMP echo requests (ping). This simulates a security scenario where network probing and basic reconnaissance activity is restricted within the environment.
+
+Event Viewer – Login Failure Investigation
+
+I used Event Viewer to monitor authentication activity within the domain environment. I reviewed failed login attempts to simulate troubleshooting and security monitoring.
+
+This investigation helped identify:
+
+• incorrect password attempts
+• authentication failures
+• suspicious login behavior
+
+Event Viewer – Additional Log Investigation
+
+I performed additional analysis using Event Viewer to review authentication events and system activity on the domain controller.
+
+This allowed me to observe:
+
+• account lockouts
+• repeated login failures
+• authentication-related system events
+
+DHCP Verification – Network Configuration
+
+To verify that the client machine received its network configuration automatically, I ran the ipconfig /all command on the client system.
+
+This allowed me to confirm:
+
+• the assigned IPv4 address
+• the DHCP server responsible for the lease
+• the configured DNS server
+• overall client network configuration
+
+DNS Verification – Name Resolution
+
+To confirm that DNS resolution was working properly within the domain environment, I used the nslookup command to query the DNS server.
+
+This test confirmed that the client machine could successfully resolve the domain controller hostname through DNS.
+
+DNS verification is commonly used when troubleshooting:
+
+• domain login problems
+• connectivity issues
+• incorrect DNS configurations
+
 ---
 
-# ServiceNow Integration (IT Service Management)
+# ServiceNow Integration (IT Service Management) - In progress
 
 To simulate real IT Service Desk workflows, I created incident tickets in **ServiceNow** related to the issues encountered during the lab.
 
