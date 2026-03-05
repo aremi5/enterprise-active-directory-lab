@@ -321,7 +321,7 @@ DNS verification is commonly used when troubleshooting:
 
 Screenshot:
 
-![DNS Lookup](Screenshots/22-DNS-nslookup-remitech.png)
+![DNS Lookup](screenshots/22-DNS-nslookup-remitech.png)
 
 
 
