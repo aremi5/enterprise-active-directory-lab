@@ -20,18 +20,51 @@ To simulate IT service operations, I also integrated **ServiceNow** workflows fo
 
 # Environment Architecture
 
-This lab environment was designed to simulate a small enterprise network running Active Directory.
+Environment Components
 
-## Environment Components
+This lab environment simulates a small enterprise Active Directory network running in Microsoft Azure. The goal of the project is to demonstrate common IT Support, System Administration, and Security troubleshooting tasks performed in a real corporate environment.
 
-- Microsoft Azure Virtual Machine (Domain Controller)
-- Windows Server 2022
-- Active Directory Domain Services
-- Windows Client Machine
-- DNS Configuration
-- SMB File Share
-- Network Traffic Analysis using Wireshark
-- ServiceNow Incident / Request Workflow
+Infrastructure
+
+Microsoft Azure Virtual Machine (Domain Controller)
+
+Windows Server 2022
+
+Active Directory Domain Services (AD DS)
+
+Windows 10 Client Machine joined to the domain
+
+Domain Name System (DNS) configuration
+
+DHCP network configuration verification
+
+Identity and Access Management
+
+Active Directory user and OU management
+
+PowerShell bulk user automation
+
+Domain authentication testing
+
+Security and Monitoring
+
+Windows Defender Firewall rule configuration
+
+Event Viewer log monitoring for authentication failures
+
+Security event investigation and troubleshooting
+
+Networking and Troubleshooting
+
+DNS resolution testing using nslookup
+
+DHCP configuration verification using ipconfig /all
+
+Network packet analysis using Wireshark
+
+Service Management
+
+ServiceNow incident and request workflow simulation
 
 **Domain Name**
 
