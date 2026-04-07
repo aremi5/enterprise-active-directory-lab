@@ -1,4 +1,4 @@
- Enterprise Active Directory Lab — RemiTech IT Solutions
+Enterprise Active Directory Lab — RemiTech IT Solutions
 Built on Microsoft Azure | Windows Server 2022 | Windows 11 Pro
 ---
 Overview
