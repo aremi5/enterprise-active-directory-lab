@@ -3,7 +3,7 @@
 
 > **Live Azure Lab | Windows Server 2022 | Windows 11 | PowerShell Automation | ServiceNow ITSM**
 
-A fully functional enterprise IT environment I built from scratch in Microsoft Azure. I configured Active Directory Domain Services, Group Policy, a print server, SMB file shares, and a complete ITSM workflow using ServiceNow. This lab simulates real-world helpdesk and sysadmin scenarios I would encounter in a corporate environment.
+A fully functional enterprise IT environment I built from scratch in Microsoft Azure. I configured Active Directory Domain Services, Group Policy, a print server, SMB file shares, and a complete ITSM workflow using ServiceNow. This lab simulates real-world helpdesk and service desk scenarios I would encounter in a corporate environment.
 
 ---
 
